@@ -35,27 +35,7 @@ cd ..\
 set tf_folder=%cd%
 cd cfg
 set cfg_folder=%cd%
-echo %root%
-echo %dev_folder%
-echo %scripts_folder%
-echo %backup_folder%
-echo %quality_folder%
-echo %textures_folder%
-echo %models_folder%
-echo %shadows_folder%
-echo %lighting_folder%
-echo %water_folder%
-echo %antialias_folder%
-echo %facialfeatures_folder%
-echo %ragdoll_folder%
-echo %props_folder%
-echo %decals_folder%
-echo %ropes_folder%
-echo %custom_folder%
-echo %tf_folder%
-echo %cfg_folder%
 cd %root%
-pause
 
 IF EXIST "%dev_folder%\settings.bat" call "%dev_folder%\settings.bat"
 IF NOT DEFINED automatic_backup set automatic_backup=on
@@ -150,10 +130,12 @@ IF %CHOICE%==y (
         echo.
         echo.- AUTOMATIC BACKUP IS TURNED OFF. ARE YOU SURE YOU WANT TO DELETE autoexec.cfg?
         del /P %autoexecFile%
+        IF EXIST "%dev_folder%\configvars.bat" del "%dev_folder%\configvars.bat"
         color 8F
         goto :new_config_textures
     ) ELSE (
         del /F %autoexecFile%
+        IF EXIST "%dev_folder%\configvars.bat" del "%dev_folder%\configvars.bat"
         color 8F
         goto :new_config_textures
     )
@@ -163,10 +145,12 @@ IF %CHOICE%==Y (
         echo.
         echo.- AUTOMATIC BACKUP IS TURNED OFF. ARE YOU SURE YOU WANT TO DELETE autoexec.cfg?
         del /P %autoexecFile%
+        IF EXIST "%dev_folder%\configvars.bat" del "%dev_folder%\configvars.bat"
         color 8F
         goto :new_config_textures
     ) ELSE (
         del /F %autoexecFile%
+        IF EXIST "%dev_folder%\configvars.bat" del "%dev_folder%\configvars.bat"
         color 8F
         goto :new_config_textures
     )
@@ -245,7 +229,7 @@ SET /P CHOICE=Please select an option:
 IF NOT %CHOICE%==1 IF NOT %CHOICE%==2 IF NOT %CHOICE%==3 goto :generator
 
 IF %CHOICE%==1 (
-    echo NOT DONE
+    echo COMING SOON. PRESS ANY KEY TO CONTINUE...
     pause > nul
     goto :main_menu
 )
@@ -254,6 +238,7 @@ IF %CHOICE%==2 (
     IF EXIST "autoexec.cfg" (
         goto :autoexec_found
     ) ELSE (
+        IF EXIST "%dev_folder%\configvars.bat" del "%dev_folder%\configvars.bat"
         goto :new_config_write_settings
     )
 )
