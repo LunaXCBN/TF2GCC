@@ -1,0 +1,6 @@
+mat_antialias 1
+mat_aaquality 0
+mat_alphacoverage 0
+mat_software_aa_strength 0
+mat_software_aa_strength_vgui 0
+mat_software_aa_quality 0

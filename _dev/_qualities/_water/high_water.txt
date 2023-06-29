@@ -1,0 +1,7 @@
+r_cheapwaterstart 3000
+r_cheapwaterend 5000
+r_waterdrawreflection 0
+r_waterforceexpensive 0
+r_waterforcereflectentities 0
+r_waterdrawrefraction 1
+r_forcewaterleaf 1

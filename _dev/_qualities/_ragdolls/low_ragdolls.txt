@@ -1,0 +1,10 @@
+cl_ragdoll_fade_time 0
+cl_ragdoll_forcefade 1
+cl_ragdoll_physics_enable 0
+ragdoll_sleepaftertime 0
+props_break_max_pieces 0
+violence_agibs 1
+violence_hgibs 1
+violence_ablood 1
+violence_hblood 1
+cl_burninggibs 0

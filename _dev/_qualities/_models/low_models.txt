@@ -1,0 +1,5 @@
+r_lod -1
+r_rootlod 1
+lod_transitiondist -1
+mat_max_worldmesh_vertices 65536
+mp_usehwmmodels -1

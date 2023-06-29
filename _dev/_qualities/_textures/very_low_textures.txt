@@ -1,0 +1,8 @@
+mat_picmip 2
+mat_filtertextures 0
+mat_trilinear 0
+mat_forceaniso 0
+mat_compressedtextures 1
+mat_disable_fancy_blending 1
+mat_bumpmap 0
+mat_specular 0

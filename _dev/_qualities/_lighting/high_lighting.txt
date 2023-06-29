@@ -1,0 +1,15 @@
+r_ambientboost 1
+r_ambientmin 0.5
+r_rimlight 1
+mat_phong 1
+r_dynamic 1
+r_maxdlights 16
+muzzleflash_light 0
+cl_muzzleflash_dlight_1st 0
+r_worldlights 2
+r_worldlightmin 0.004
+r_lightaverage 0
+mat_disable_lightwarp 0
+mat_filterlightmaps 1
+mat_reducefillrate 0
+mat_softwarelighting 0

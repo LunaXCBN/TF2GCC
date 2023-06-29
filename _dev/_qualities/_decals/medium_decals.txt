@@ -1,0 +1,10 @@
+r_decals 96
+mp_decals 96
+r_drawbatchdecals 1
+r_decal_cullsize 256
+r_decal_cover_count 1
+r_decal_overlap_area 0.4
+r_decal_overlap_count 0
+r_drawmodeldecals 1
+r_maxmodeldecal 9
+r_renderoverlayfragment 1

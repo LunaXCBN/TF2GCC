@@ -1,0 +1,15 @@
+r_flex 1
+flex_rules 1
+flex_smooth 1
+anim_3wayblend 0
+ai_expression_optimization 1
+ai_expression_frametime 0.0151
+r_teeth 1
+r_eyes 1
+r_eyemove 1
+r_glint_procedural 0
+blink_duration 0.2
+tf_clientsideeye_lookats 0
+phonemefilter 0.001
+phonemesnap 0
+mp_usehwmvcds 0

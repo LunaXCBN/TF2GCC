@@ -1,0 +1,7 @@
+r_shadows 1
+nb_shadow_dist 400
+r_shadowmaxrendered 12
+r_shadowrendertotexture 0
+r_flashlightdepthtexture 0
+r_flashlightdepthres 1024
+cl_blobbyshadows 1

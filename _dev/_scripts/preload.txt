@@ -1,0 +1,16 @@
+mod_load_anims_async 0
+mod_load_mesh_async 0
+mod_load_vcollide_async 0
+mod_touchalldata 1
+mod_forcetouchdata 1
+mod_forcedata 1
+cl_always_flush_models 0
+mod_lock_mdls_on_load 0
+sv_pure 0
+sv_allow_wait_command 1
+
+wait 1; map preload_room; wait 35; disconnect
+
+echo PRELOAD DONE!
+
+// Thank you horsie <3

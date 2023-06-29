@@ -1,0 +1,11 @@
+r_PhysPropStaticLighting 1
+r_decalstaticprops 0
+r_drawopaquestaticpropslast 1
+cl_phys_props_enable 0
+cl_phys_props_max 20
+cl_phys_props_respawndist 1500
+r_propsmaxdist 0
+r_drawdetailprops 0
+cl_detaildist 0
+cl_detailfade 0
+r_staticprop_lod 4
